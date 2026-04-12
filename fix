@@ -1,0 +1,33 @@
+
+   • Packages in scope: @repo/api, @repo/db, @repo/shared, @repo/ui, @repo/web
+   • Running lint in 5 packages
+   • Remote caching disabled
+
+@repo/shared:lint: cache hit, replaying logs 58a1d955b7beed7f
+@repo/db:lint: cache hit, replaying logs c04e9dc2ce33898d
+@repo/shared:lint: $ oxlint --config ../../oxlintrc.json src/
+@repo/shared:lint: Found 0 warnings and 0 errors.
+@repo/shared:lint: Finished in 3ms on 4 files with 76 rules using 8 threads.
+@repo/db:lint: 
+@repo/db:lint: [0m[2m[35m$[0m [2m[1moxlint --config ../../oxlintrc.json src/[0m
+@repo/db:lint: Found 0 warnings and 0 errors.
+@repo/db:lint: Finished in 16ms on 4 files with 76 rules using 8 threads.
+@repo/web:lint: cache hit, replaying logs 0f8828616f80c4c6
+@repo/ui:lint: cache hit, replaying logs f27cccf65a1c2a5b
+@repo/web:lint: 
+@repo/web:lint: [0m[2m[35m$[0m [2m[1moxlint --config ../../oxlintrc.json src/[0m
+@repo/web:lint: Found 0 warnings and 0 errors.
+@repo/web:lint: Finished in 16ms on 6 files with 76 rules using 8 threads.
+@repo/ui:lint: $ oxlint --config ../../oxlintrc.json src/
+@repo/ui:lint: Found 0 warnings and 0 errors.
+@repo/ui:lint: Finished in 3ms on 2 files with 76 rules using 8 threads.
+@repo/api:lint: cache hit, replaying logs bf253fa44db98236
+@repo/api:lint: 
+@repo/api:lint: [0m[2m[35m$[0m [2m[1moxlint --config ../../oxlintrc.json src/[0m
+@repo/api:lint: Found 0 warnings and 0 errors.
+@repo/api:lint: Finished in 16ms on 6 files with 76 rules using 8 threads.
+
+ Tasks:    5 successful, 5 total
+Cached:    5 cached, 5 total
+  Time:    43ms >>> FULL TURBO
+
