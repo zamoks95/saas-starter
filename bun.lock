@@ -23,6 +23,7 @@
         "@repo/db": "workspace:*",
         "@repo/shared": "workspace:*",
         "better-auth": "^1",
+        "drizzle-orm": "^0.44",
         "elysia": "^1",
       },
       "devDependencies": {

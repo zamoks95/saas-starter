@@ -1,9 +1,8 @@
 import { Elysia } from "elysia";
+import { db } from "@repo/db";
+import { DrizzleUserRepository } from "../persistence/drizzle-user.repository";
 
-// DI plugin: register singletons via .decorate() and per-request context via .derive()
-//
-// Example usage:
-//   .decorate('userRepo', new DrizzleUserRepo(db))
-//   .derive(({ headers }) => ({ currentUser: extractUser(headers) }))
-
-export const diPlugin = new Elysia({ name: "di" });
+export const diPlugin = new Elysia({ name: "di" }).decorate(
+  "userRepo",
+  new DrizzleUserRepository(db),
+);
