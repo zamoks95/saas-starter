@@ -12,11 +12,12 @@
     "test": "bun test"
   },
   "dependencies": {
-    "elysia": "^1",
     "@elysiajs/cors": "^1",
-    "better-auth": "^1",
     "@repo/db": "workspace:*",
-    "@repo/shared": "workspace:*"
+    "@repo/shared": "workspace:*",
+    "better-auth": "^1",
+    "elysia": "^1",
+    "resend": "^6.11.0"
   },
   "devDependencies": {
     "typescript": "^5"
