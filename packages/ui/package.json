@@ -12,6 +12,10 @@
     "./*": {
       "types": "./src/*.ts",
       "default": "./src/*.ts"
+    },
+    "./*.tsx": {
+      "types": "./src/*.tsx",
+      "default": "./src/*.tsx"
     }
   },
   "scripts": {

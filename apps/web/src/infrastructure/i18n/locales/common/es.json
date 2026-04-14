@@ -41,5 +41,36 @@
     "notFound": "P\u00e1gina no encontrada",
     "unauthorized": "No tienes permiso para acceder a esta p\u00e1gina",
     "networkError": "Error de red. Comprueba tu conexi\u00f3n."
+  },
+  "dashboard": {
+    "title": "Panel",
+    "welcome": {
+      "title": "Bienvenido de nuevo",
+      "greeting": "Bienvenido de nuevo, {{name}}.",
+      "greetingAnonymous": "Bienvenido de nuevo.",
+      "description": "Aqu\u00ed tienes un resumen de tu cuenta.",
+      "settingsButton": "Ajustes",
+      "logoutButton": "Cerrar sesi\u00f3n"
+    },
+    "account": {
+      "title": "Resumen de la cuenta",
+      "email": "Correo electr\u00f3nico",
+      "memberSince": "Miembro desde",
+      "verificationStatus": "Verificaci\u00f3n",
+      "verified": "Verificado",
+      "unverified": "No verificado"
+    },
+    "quickStart": {
+      "title": "Gu\u00eda de inicio r\u00e1pido",
+      "description": "Comienza con el SaaS Starter. Completa estos pasos para configurar tu proyecto.",
+      "steps": {
+        "cloneRepo": "Clona el repositorio y ejecuta bun install",
+        "configureEnv": "Configura tu archivo .env con las credenciales de base de datos y autenticaci\u00f3n",
+        "runMigrations": "Ejecuta las migraciones con bun run db:migrate",
+        "startDev": "Inicia el servidor de desarrollo con bun run dev",
+        "exploreDashboard": "Explora este panel y reemplaza las tarjetas con las tuyas",
+        "readDocs": "Lee el README para gu\u00edas de arquitectura y despliegue"
+      }
+    }
   }
 }
