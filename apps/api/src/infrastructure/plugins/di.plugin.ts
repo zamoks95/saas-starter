@@ -1,9 +1,7 @@
 import { Elysia } from "elysia";
+import { ResendEmailAdapter } from "../email/resend-email.adapter";
 
-// DI plugin: register singletons via .decorate() and per-request context via .derive()
-//
-// Example usage:
-//   .decorate('userRepo', new DrizzleUserRepo(db))
-//   .derive(({ headers }) => ({ currentUser: extractUser(headers) }))
-
-export const diPlugin = new Elysia({ name: "di" });
+export const diPlugin = new Elysia({ name: "di" }).decorate(
+  "emailService",
+  new ResendEmailAdapter(process.env.RESEND_API_KEY ?? ""),
+);
