@@ -36,6 +36,8 @@ docker compose -f docker/docker-compose.dev.yml up -d
 # Configure environment variables
 cp apps/api/.env.example apps/api/.env
 cp packages/db/.env.example packages/db/.env
+# Set your Resend API key in apps/api/.env
+# Get one at https://resend.com/api-keys
 
 # Run database migrations
 bun run db:migrate

@@ -12,12 +12,13 @@
     "test": "bun test"
   },
   "dependencies": {
-    "elysia": "^1",
     "@elysiajs/cors": "^1",
+    "@repo/db": "workspace:*",
+    "@repo/shared": "workspace:*",
     "better-auth": "^1",
     "drizzle-orm": "^0.44",
-    "@repo/db": "workspace:*",
-    "@repo/shared": "workspace:*"
+    "elysia": "^1",
+    "resend": "^6.11.0"
   },
   "devDependencies": {
     "typescript": "^5"
