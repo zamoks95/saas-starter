@@ -1,5 +1,6 @@
 import { BrowserRouter, useRoutes } from "react-router";
 import { routes } from "./infrastructure/routes";
+import { I18nProvider } from "./infrastructure/i18n";
 
 function AppRoutes() {
   return useRoutes(routes);
@@ -7,8 +8,10 @@ function AppRoutes() {
 
 export function App() {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <I18nProvider>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </I18nProvider>
   );
 }

@@ -1,0 +1,45 @@
+{
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "retry": "Retry"
+  },
+  "navigation": {
+    "home": "Home",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Log out",
+    "login": "Log in",
+    "signUp": "Sign up"
+  },
+  "form": {
+    "required": "This field is required",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "search": "Search",
+    "selectOption": "Select an option"
+  },
+  "status": {
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "error": "Something went wrong",
+    "success": "Success",
+    "noResults": "No results found",
+    "empty": "Nothing here yet"
+  },
+  "errors": {
+    "generic": "An unexpected error occurred",
+    "notFound": "Page not found",
+    "unauthorized": "You are not authorized to access this page",
+    "networkError": "Network error. Please check your connection."
+  }
+}
