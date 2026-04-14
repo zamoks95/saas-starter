@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { NameSchema, PasswordSchema } from "../../domain/primitives";
 
 export const UserResponseSchema = z.object({
   id: z.string(),
@@ -13,7 +14,7 @@ export type UserResponse = z.infer<typeof UserResponseSchema>;
 
 export const UpdateProfileRequestSchema = z
   .object({
-    name: z.string().min(1).optional(),
+    name: NameSchema.optional(),
     image: z.string().url().optional(),
   })
   .refine((data) => data.name !== undefined || data.image !== undefined, {
@@ -24,7 +25,7 @@ export type UpdateProfileRequest = z.infer<typeof UpdateProfileRequestSchema>;
 
 export const ChangePasswordRequestSchema = z.object({
   currentPassword: z.string().min(1),
-  newPassword: z.string().min(8),
+  newPassword: PasswordSchema,
 });
 
 export type ChangePasswordRequest = z.infer<
