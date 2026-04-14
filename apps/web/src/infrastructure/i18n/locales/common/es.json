@@ -1,0 +1,45 @@
+{
+  "buttons": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "submit": "Enviar",
+    "back": "Atr\u00e1s",
+    "next": "Siguiente",
+    "close": "Cerrar",
+    "retry": "Reintentar"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "settings": "Ajustes",
+    "profile": "Perfil",
+    "logout": "Cerrar sesi\u00f3n",
+    "login": "Iniciar sesi\u00f3n",
+    "signUp": "Registrarse"
+  },
+  "form": {
+    "required": "Este campo es obligatorio",
+    "email": "Correo electr\u00f3nico",
+    "password": "Contrase\u00f1a",
+    "name": "Nombre",
+    "search": "Buscar",
+    "selectOption": "Selecciona una opci\u00f3n"
+  },
+  "status": {
+    "loading": "Cargando...",
+    "saving": "Guardando...",
+    "error": "Algo sali\u00f3 mal",
+    "success": "\u00c9xito",
+    "noResults": "No se encontraron resultados",
+    "empty": "A\u00fan no hay nada aqu\u00ed"
+  },
+  "errors": {
+    "generic": "Ocurri\u00f3 un error inesperado",
+    "notFound": "P\u00e1gina no encontrada",
+    "unauthorized": "No tienes permiso para acceder a esta p\u00e1gina",
+    "networkError": "Error de red. Comprueba tu conexi\u00f3n."
+  }
+}
