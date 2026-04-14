@@ -8,6 +8,10 @@
     "declarationMap": false,
     "outDir": "dist",
     "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "src/lib/utils": ["../../packages/ui/src/lib/utils"]
+    },
     "types": ["vite/client"]
   },
   "include": ["src"],

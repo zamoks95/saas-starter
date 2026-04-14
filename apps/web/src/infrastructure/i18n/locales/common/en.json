@@ -41,5 +41,36 @@
     "notFound": "Page not found",
     "unauthorized": "You are not authorized to access this page",
     "networkError": "Network error. Please check your connection."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": {
+      "title": "Welcome back",
+      "greeting": "Welcome back, {{name}}.",
+      "greetingAnonymous": "Welcome back.",
+      "description": "Here's an overview of your account.",
+      "settingsButton": "Settings",
+      "logoutButton": "Log out"
+    },
+    "account": {
+      "title": "Account Summary",
+      "email": "Email",
+      "memberSince": "Member since",
+      "verificationStatus": "Verification",
+      "verified": "Verified",
+      "unverified": "Unverified"
+    },
+    "quickStart": {
+      "title": "Quick Start Guide",
+      "description": "Get started with the SaaS Starter. Complete these steps to set up your project.",
+      "steps": {
+        "cloneRepo": "Clone the repository and run bun install",
+        "configureEnv": "Configure your .env file with database and auth credentials",
+        "runMigrations": "Run database migrations with bun run db:migrate",
+        "startDev": "Start the dev server with bun run dev",
+        "exploreDashboard": "Explore this dashboard and replace cards with your own",
+        "readDocs": "Read the README for architecture and deployment guides"
+      }
+    }
   }
 }
